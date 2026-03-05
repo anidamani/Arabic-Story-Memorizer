@@ -54,7 +54,7 @@ export default function Home({ selectedSet }: HomeProps) {
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <Badge variant="secondary" className="text-[11px]">
-                  Série {vocabSet.id} / 27
+                  Série {vocabSet.id} / {vocabularySets.length}
                 </Badge>
                 <Badge variant="outline" className="text-[11px]">
                   {vocabSet.words.length} mots

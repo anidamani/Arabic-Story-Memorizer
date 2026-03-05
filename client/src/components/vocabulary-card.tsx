@@ -19,7 +19,7 @@ function getTypeColor(type: VocabWord["type"]): string {
     case "adjective": return "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300";
     case "adverb": return "bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300";
     case "preposition": return "bg-rose-100 text-rose-700 dark:bg-rose-900/30 dark:text-rose-300";
-    case "color": return "bg-pink-100 text-pink-700 dark:bg-pink-900/30 dark:text-pink-300";
+    case "expression": return "bg-pink-100 text-pink-700 dark:bg-pink-900/30 dark:text-pink-300";
     default: return "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300";
   }
 }
@@ -31,7 +31,7 @@ function getTypeLabel(type: VocabWord["type"]): string {
     case "adjective": return "Adj.";
     case "adverb": return "Adv.";
     case "preposition": return "Prép.";
-    case "color": return "Couleur";
+    case "expression": return "Expr.";
     default: return type;
   }
 }
